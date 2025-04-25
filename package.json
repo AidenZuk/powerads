@@ -1,0 +1,24 @@
+{
+  "name": "powerads",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "dev:h5": "uni -p h5",
+    "build:h5": "uni build -p h5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@dcloudio/uni-app": "^2.0.2-4050720250324001",
+    "@dcloudio/uni-cli-shared": "^2.0.2-4050720250324001",
+    "@dcloudio/uni-mp-weixin": "^2.0.2-4050720250324001",
+    "@dcloudio/vue-cli-plugin-uni": "^2.0.2-4050720250324001",
+    "@dcloudio/webpack-uni-mp-loader": "^2.0.2-4050720250324001",
+    "@vue/cli-service": "^5.0.8",
+    "pinia": "^3.0.2"
+  }
+}
